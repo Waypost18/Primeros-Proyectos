@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: cursive;
+    
+}
+#menuac{
+    float: left;
+    height: 20%;
+    width: 20%;
+    font-size: 1vw;
+    border:white 0.1vw outset;
+    text-align: left;
+}
+nav{
+    height: 3vw;
+    text-align: center;
+    font-size: 1.8vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+nav a:hover, nav a:focus {
+    background-color:#f072ac;
+    
+}
+/** 
+***   Nav
+*----------------------------------*/
+header{ 
+    border-radius: 8vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+header audio{
+    float: right;
+    padding: 2vw;
+    border-radius: 6vw;
+}
+header img{
+    width: 35vw;
+    height: 6.5vw;
+    padding: 1vw;
+    border-radius: 6vw;
+}
+header h1{
+    padding: 2vw;
+    font-size: 3vw;
+}
+/** 
+***  Aside y Main
+*----------------------------------*/
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+    height: 100%;
+    text-align:initial;
+    padding: 3%;
+    border:white 0.1vw outset;
+    border-radius: 1vw;
+}
+aside img{
+    float: left;
+    width: 35%;
+    height: 30%;
+    padding: 0.5vw;
+}
+aside figure{
+    float: right;
+}
+aside figcaption{
+    display: flex;
+    flex-direction: column;
+}
+aside p{ 
+    display: inline;
+    font-size: 1vw;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+section{
+    padding: 1%;
+    font-size: 1vw;
+    border: white 0.1vw solid;
+    border-radius: 1vw;
+    height: 100%;
+}
+footer{
+    text-align: center;
+    border: white 0.1vw inset;
+    border-radius: 1vw;
+    vertical-align: bottom;
+    position: bottom;
+}
+/** 
+***  Article
+*----------------------------------*/
+article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 55%;
+    font-size: 1.1em;
+}
+article i{
+    text-align: center
+}
+article h2{
+    text-align: left;
+    vertical-align: text-top;
+}
+article figure {
+     width: 23%;
+     text-align: center;
+}
+article figure img{
+    width: 15vw;
+    height: 15vw;
+}
